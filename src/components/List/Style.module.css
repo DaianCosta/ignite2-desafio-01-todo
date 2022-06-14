@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 12px;
+    margin-top: 2.6rem;
+    width: 52.1rem;
+}
+
+.badgeCounter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--gray-100);
+    width: 100%;
+}
+
+.item header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.trash {
+    color: var(--gray-400);
+}
+
+.trash:hover {
+    color: var(--danger);
+}
+
+.completed {
+    color: var(--purple-dark);
+}
+
+.paragraphCompleted {
+    color: var(--gray-300);
+}
+
+.inProgress {
+    color: var(--purple);
+}

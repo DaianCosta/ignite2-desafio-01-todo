@@ -1,0 +1,26 @@
+.badgeCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.badgeCounter span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-500);
+    width: 1.7rem;
+    height: 1.5rem;
+    border-radius: 1.6rem;
+}
+
+.completed {
+    color: var(--purple-dark);
+    font-weight: bold;
+}
+
+.all {
+    color: var(--blue);
+    font-weight: bold;
+}
